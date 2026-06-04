@@ -1,0 +1,120 @@
+header{
+    height: 55px;
+    margin-top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    background-color: white;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+
+    background-color: #0d1014;
+
+    
+}
+
+.left-section{
+    width:185px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vs-icon{
+    width:20px;
+    margin-left:18px;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.vs-heading{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e2e2e2;
+    margin-left:0px;
+    cursor: pointer;
+}
+
+.middle-section{
+    display: flex;
+    height: 55px;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    font-size:14px;
+    margin-right:88px;
+    margin-left:30px;
+    color:#e2e2e2;
+}
+
+.right-section{
+    width:150px;
+    margin-right:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download{
+    background-color: #0078d4;
+    color:white;
+    border:none;
+    padding:5px 15px;
+    padding-left:13px;
+    border-radius:3px;
+    font-size: 13px;
+    font-weight:520;
+    margin-left:0px;
+}
+.download:hover{
+    background-color: #035b9e;
+}
+.search{
+    background-color: #0d1014;
+    width:15px;
+    margin-left:0px;
+    padding:5px;
+    border-radius: 3px;
+}
+.search:hover,.brightness:hover{
+    background-color: #1c1e20;
+}
+.brightness{
+    padding:5px;
+    border-radius: 3px;
+    margin-left:8px;
+    margin-right:7px;
+}
+
+.popup{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    height:33px;
+    position: fixed;
+    top:55px;
+    left:0;
+    right:0;
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(0, 77, 192, 0.25) 0%,
+            rgba(0, 102, 255, 0.08) 40%,
+            transparent 75%
+        ),
+        #0d1117;
+
+        height:33px;
+
+    border:solid;
+    border-width:1px;
+    border-color: #1c1e20;    
+}
