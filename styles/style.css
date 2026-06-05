@@ -2,4 +2,90 @@ body{
     padding-bottom:1000px;
     background-color: #0d1014;
     font-family: Roboto,Arial;
+    margin:0px;
+}
+
+.hero{
+    color:#e6eefa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex:1; */
+}
+
+.hero-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    font-family: Roboto,Arial;
+    margin-top:0;
+    margin-left:0;
+    margin:0px;
+    font-weight:600;
+    padding-top:15px;
+}
+
+.hero-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+    font-family: Roboto,Arial;
+    margin-top:10px;
+    margin-bottom:40px;
+    margin-left:0;
+    margin-right:0px;
+    font-weight:400px;
+}
+
+.download-content{
+    display: inline-flex;
+    flex-direction: column;
+    width:fit-content;
+    height:fit-content;
+    /* text-align: center;
+    margin-left:auto;
+    margin-right:auto; */
+    background-color: #1a1a1a;
+    border-radius:6px;
+    padding:16px 25px;
+    
+}
+
+.download-windows{
+    text-align:center;
+    padding:12px 35px;
+    font-size:18px;
+
+    border:2px solid transparent;
+    border-radius:10px;
+
+    transition:all 0.25s ease;
+}
+.download-windows:hover{
+    box-shadow:
+        0 0 0 3px #0d1014,
+        0 0 0 5px #e6eefa;
+}
+
+.windows-icon{
+    vertical-align:top;
+    height:23px;
+}
+
+.download-links,.download-details-sub{
+    font-size:11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.download-link-sub,.download-details-sub{
+    margin:3px;
+    color:#e6eefa;
+    font-weight:500
 }
